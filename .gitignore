@@ -1,0 +1,38 @@
+# Dependências
+node_modules/
+yarn.lock
+
+# Variáveis de ambiente
+.env
+
+# Arquivos de autenticação do WhatsApp
+auth_info/
+*.json
+
+# Banco de dados local
+database/
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# Logs
+logs/
+*.log
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PM2
+.pm2/
+
+# Temporários
+tmp/
+temp/
